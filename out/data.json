@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Name": "AAA",
+    "Param01": "01",
+    "Param02": 1.1,
+    "Param03": "壱"
+  },
+  {
+    "Id": 2,
+    "Name": "BBB",
+    "Param01": "02",
+    "Param02": 2.2,
+    "Param03": "弐"
+  },
+  {
+    "Id": 3,
+    "Name": "CCC",
+    "Param01": "03",
+    "Param02": 3.3,
+    "Param03": "参"
+  },
+  {
+    "Id": 4,
+    "Name": "DDD",
+    "Param01": "04",
+    "Param02": 4.4,
+    "Param03": "肆"
+  },
+  {
+    "Id": 5,
+    "Name": "EEE",
+    "Param01": "05",
+    "Param02": 5.5,
+    "Param03": "伍"
+  },
+  {
+    "Id": 6,
+    "Name": "FFF",
+    "Param01": "06",
+    "Param02": 6.6,
+    "Param03": "陸"
+  },
+  {
+    "Id": 7,
+    "Name": "GGG",
+    "Param01": "07",
+    "Param02": 7.7,
+    "Param03": "漆"
+  },
+  {
+    "Id": 8,
+    "Name": "HHH",
+    "Param01": "08",
+    "Param02": 8.8,
+    "Param03": "捌"
+  },
+  {
+    "Id": 9,
+    "Name": "III",
+    "Param01": "09",
+    "Param02": 9.9,
+    "Param03": "玖"
+  },
+  {
+    "Id": 10,
+    "Name": "JJJ",
+    "Param01": "10",
+    "Param02": 10.1,
+    "Param03": "拾"
+  }
+]
