@@ -1,0 +1,2 @@
+# xlsx validation
+xlsxファイルからJSONファイルへコンバートし、バリデーションチェックを行う
