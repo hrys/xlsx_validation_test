@@ -14,4 +14,4 @@ python_version = "3.8"
 [scripts]
 convert = "python xlsx2json/xlsx2json.py"
 vet = "cue vet vet/data.cue out/data.json"
-all = "pipenv run convert && pipenv run vet"
+all = "bash -c 'pipenv run convert && pipenv run vet'"
