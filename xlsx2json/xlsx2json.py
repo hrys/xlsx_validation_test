@@ -18,6 +18,7 @@ for row in sheet.iter_rows(min_row=2, max_row=sheet.max_row):
         row_data[columns[cell.column-1]] = cell.value
     dict.append(row_data)
 
-os.makedirs("out")
+if not os.path.exists("out"):
+    os.makedirs("out")
 json_file = open('out/data.json', 'w')
 json.dump(dict, json_file, ensure_ascii=False, indent=2)
