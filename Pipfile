@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 openpyxl = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.8"
@@ -15,3 +16,6 @@ python_version = "3.8"
 convert = "python xlsx2json/xlsx2json.py"
 vet = "cue vet vet/data.cue out/data.json"
 all = "bash -c 'pipenv run convert && pipenv run vet'"
+convert_yaml = "python xlsx2yaml/xlsx2yaml.py"
+vet_yaml = "cue vet vet/data.cue out/data.yaml"
+all_yaml = "bash -c 'pipenv run convert_yaml && pipenv run vet_yaml'"

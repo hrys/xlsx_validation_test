@@ -1,5 +1,5 @@
 import openpyxl
-import json
+import yaml
 import os
 
 wb = openpyxl.load_workbook(filename="data/data.xlsx", read_only=True)
@@ -20,5 +20,6 @@ for row in sheet.iter_rows(min_row=2, max_row=sheet.max_row):
 
 if not os.path.exists("out"):
     os.makedirs("out")
-json_file = open('out/data.json', 'w')
-json.dump(dict, json_file, ensure_ascii=False, indent=2)
+
+with open("out/data.yaml", "w") as yaml_file:
+    yaml.dump(dict, yaml_file)
